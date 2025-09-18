@@ -1,0 +1,29 @@
+.loading-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-content {
+  text-align: center;
+}
+
+.loading-icon {
+  margin: 0 auto 1rem;
+  height: 3rem;
+  width: 3rem;
+  color: #2563eb;
+  animation: pulse 2s infinite;
+}
+
+.loading-text {
+  color: #6b7280;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
